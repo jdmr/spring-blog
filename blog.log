@@ -1,0 +1,312 @@
+12/04/13 11:58:05.723 [BLOG] INFO  [main] o.s.test.context.TestContextManager[185] - @TestExecutionListeners is not present for class [class mx.edu.um.blog.dao.ArticuloDaoTest]: using defaults.
+12/04/13 11:58:05.825 [BLOG] INFO  [main] o.s.b.f.xml.XmlBeanDefinitionReader[315] - Loading XML bean definitions from class path resource [blog.xml]
+12/04/13 11:58:05.960 [BLOG] INFO  [main] o.s.c.a.ClassPathBeanDefinitionScanner[202] - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+12/04/13 11:58:05.962 [BLOG] INFO  [main] o.s.c.a.ClassPathBeanDefinitionScanner[210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+12/04/13 11:58:06.036 [BLOG] INFO  [main] o.s.c.s.GenericApplicationContext[495] - Refreshing org.springframework.context.support.GenericApplicationContext@6c50567b: startup date [Fri Apr 13 11:58:06 CDT 2012]; root of context hierarchy
+12/04/13 11:58:06.154 [BLOG] INFO  [main] o.s.c.s.PropertySourcesPlaceholderConfigurer[177] - Loading properties file from URL [file:/Users/jdmr/dev/practicas/blog/target/classes/ambiente/blog.properties]
+12/04/13 11:58:06.166 [BLOG] INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor[139] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12/04/13 11:58:06.255 [BLOG] INFO  [main] o.s.b.f.s.DefaultListableBeanFactory[557] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@43f42525: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,articuloDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,org.springframework.orm.hibernate4.HibernateExceptionTranslator#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,messageSource,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+12/04/13 11:58:06.405 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration boolean -> org.hibernate.type.BooleanType@19a07ff
+12/04/13 11:58:06.406 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration boolean -> org.hibernate.type.BooleanType@19a07ff
+12/04/13 11:58:06.406 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@19a07ff
+12/04/13 11:58:06.408 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@33c40638
+12/04/13 11:58:06.409 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@551ea5f4
+12/04/13 11:58:06.411 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration yes_no -> org.hibernate.type.YesNoType@3f9eb1da
+12/04/13 11:58:06.413 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration byte -> org.hibernate.type.ByteType@121812f9
+12/04/13 11:58:06.414 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration byte -> org.hibernate.type.ByteType@121812f9
+12/04/13 11:58:06.414 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@121812f9
+12/04/13 11:58:06.416 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration character -> org.hibernate.type.CharacterType@1ca2d8f6
+12/04/13 11:58:06.416 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration char -> org.hibernate.type.CharacterType@1ca2d8f6
+12/04/13 11:58:06.417 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ca2d8f6
+12/04/13 11:58:06.420 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration short -> org.hibernate.type.ShortType@47d13d6a
+12/04/13 11:58:06.421 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration short -> org.hibernate.type.ShortType@47d13d6a
+12/04/13 11:58:06.421 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@47d13d6a
+12/04/13 11:58:06.424 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration integer -> org.hibernate.type.IntegerType@7a6b653f
+12/04/13 11:58:06.425 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration int -> org.hibernate.type.IntegerType@7a6b653f
+12/04/13 11:58:06.425 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7a6b653f
+12/04/13 11:58:06.428 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration long -> org.hibernate.type.LongType@1d8c3d92
+12/04/13 11:58:06.428 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration long -> org.hibernate.type.LongType@1d8c3d92
+12/04/13 11:58:06.429 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@1d8c3d92
+12/04/13 11:58:06.432 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration float -> org.hibernate.type.FloatType@54d03269
+12/04/13 11:58:06.432 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration float -> org.hibernate.type.FloatType@54d03269
+12/04/13 11:58:06.433 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@54d03269
+12/04/13 11:58:06.435 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration double -> org.hibernate.type.DoubleType@7394fa7b
+12/04/13 11:58:06.435 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration double -> org.hibernate.type.DoubleType@7394fa7b
+12/04/13 11:58:06.436 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7394fa7b
+12/04/13 11:58:06.438 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@8e2ff75
+12/04/13 11:58:06.439 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@8e2ff75
+12/04/13 11:58:06.441 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@312d2f30
+12/04/13 11:58:06.442 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@312d2f30
+12/04/13 11:58:06.444 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration string -> org.hibernate.type.StringType@371fac61
+12/04/13 11:58:06.445 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.String -> org.hibernate.type.StringType@371fac61
+12/04/13 11:58:06.447 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration url -> org.hibernate.type.UrlType@63c7b5d1
+12/04/13 11:58:06.448 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@63c7b5d1
+12/04/13 11:58:06.456 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration date -> org.hibernate.type.DateType@15b7025c
+12/04/13 11:58:06.456 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@15b7025c
+12/04/13 11:58:06.459 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration time -> org.hibernate.type.TimeType@3495cd
+12/04/13 11:58:06.460 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3495cd
+12/04/13 11:58:06.463 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration timestamp -> org.hibernate.type.TimestampType@256f1bf
+12/04/13 11:58:06.465 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@256f1bf
+12/04/13 11:58:06.466 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@256f1bf
+12/04/13 11:58:06.468 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@37073255
+12/04/13 11:58:06.471 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration calendar -> org.hibernate.type.CalendarType@69a36091
+12/04/13 11:58:06.471 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@69a36091
+12/04/13 11:58:06.472 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@69a36091
+12/04/13 11:58:06.473 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4e4d169c
+12/04/13 11:58:06.475 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration locale -> org.hibernate.type.LocaleType@b27b9b5
+12/04/13 11:58:06.476 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@b27b9b5
+12/04/13 11:58:06.477 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration currency -> org.hibernate.type.CurrencyType@456f9a8f
+12/04/13 11:58:06.478 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@456f9a8f
+12/04/13 11:58:06.479 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@23d022f5
+12/04/13 11:58:06.479 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@23d022f5
+12/04/13 11:58:06.481 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration class -> org.hibernate.type.ClassType@5665b20e
+12/04/13 11:58:06.482 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5665b20e
+12/04/13 11:58:06.484 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3e8a0821
+12/04/13 11:58:06.485 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3e8a0821
+12/04/13 11:58:06.487 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@468f5968
+12/04/13 11:58:06.488 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@7018394a
+12/04/13 11:58:06.491 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration binary -> org.hibernate.type.BinaryType@5d3f4778
+12/04/13 11:58:06.492 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration byte[] -> org.hibernate.type.BinaryType@5d3f4778
+12/04/13 11:58:06.492 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [B -> org.hibernate.type.BinaryType@5d3f4778
+12/04/13 11:58:06.494 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7a538050
+12/04/13 11:58:06.495 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7a538050
+12/04/13 11:58:06.495 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7a538050
+12/04/13 11:58:06.497 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration image -> org.hibernate.type.ImageType@3b8d3ecd
+12/04/13 11:58:06.499 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration characters -> org.hibernate.type.CharArrayType@6f6c1fb0
+12/04/13 11:58:06.499 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration char[] -> org.hibernate.type.CharArrayType@6f6c1fb0
+12/04/13 11:58:06.500 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [C -> org.hibernate.type.CharArrayType@6f6c1fb0
+12/04/13 11:58:06.501 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@50f36fcb
+12/04/13 11:58:06.502 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@50f36fcb
+12/04/13 11:58:06.503 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@50f36fcb
+12/04/13 11:58:06.504 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration text -> org.hibernate.type.TextType@6dadd89d
+12/04/13 11:58:06.510 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration blob -> org.hibernate.type.BlobType@6a068b9f
+12/04/13 11:58:06.510 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6a068b9f
+12/04/13 11:58:06.511 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@330d386d
+12/04/13 11:58:06.516 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration clob -> org.hibernate.type.ClobType@90d1117
+12/04/13 11:58:06.516 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@90d1117
+12/04/13 11:58:06.517 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@561393bc
+12/04/13 11:58:06.518 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration serializable -> org.hibernate.type.SerializableType@5ea9ea79
+12/04/13 11:58:06.521 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration object -> org.hibernate.type.ObjectType@489e9fce
+12/04/13 11:58:06.521 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@489e9fce
+12/04/13 11:58:06.522 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@380dcf35
+12/04/13 11:58:06.523 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@129ebd53
+12/04/13 11:58:06.550 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@739f9db1
+12/04/13 11:58:06.550 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@742a0ac4
+12/04/13 11:58:06.551 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@74290570
+12/04/13 11:58:06.551 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@312437a4
+12/04/13 11:58:06.552 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@40c10930
+12/04/13 11:58:06.552 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@41424f86
+12/04/13 11:58:06.574 [BLOG] INFO  [main] o.h.annotations.common.Version[37] - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+12/04/13 11:58:06.579 [BLOG] INFO  [main] org.hibernate.Version[41] - HHH000412: Hibernate Core {4.1.2}
+12/04/13 11:58:06.581 [BLOG] INFO  [main] org.hibernate.cfg.Environment[239] - HHH000206: hibernate.properties not found
+12/04/13 11:58:06.583 [BLOG] INFO  [main] org.hibernate.cfg.Environment[342] - HHH000021: Bytecode provider name : javassist
+12/04/13 11:58:06.985 [BLOG] INFO  [main] org.hibernate.dialect.Dialect[122] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+12/04/13 11:58:07.004 [BLOG] INFO  [main] o.h.e.j.internal.LobCreatorBuilder[120] - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+12/04/13 11:58:07.012 [BLOG] INFO  [main] o.h.e.t.i.TransactionFactoryInitiator[68] - HHH000399: Using default transaction strategy (direct JDBC transactions)
+12/04/13 11:58:07.016 [BLOG] INFO  [main] o.h.h.i.a.ASTQueryTranslatorFactory[48] - HHH000397: Using ASTQueryTranslatorFactory
+12/04/13 11:58:07.029 [BLOG] TRACE [main] org.hibernate.type.TypeFactory[72] - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@16393f3c
+12/04/13 11:58:07.045 [BLOG] INFO  [main] org.hibernate.validator.util.Version[24] - Hibernate Validator 4.2.0.Final
+12/04/13 11:58:07.237 [BLOG] INFO  [main] o.h.tool.hbm2ddl.SchemaExport[343] - HHH000227: Running hbm2ddl schema export
+12/04/13 11:58:07.310 [BLOG] INFO  [main] o.h.tool.hbm2ddl.SchemaExport[405] - HHH000230: Schema export complete
+12/04/13 11:58:07.520 [BLOG] INFO  [main] o.s.o.h.HibernateTransactionManager[268] - Using DataSource [org.apache.commons.dbcp.BasicDataSource@68871741] of Hibernate SessionFactory for HibernateTransactionManager
+12/04/13 11:58:07.684 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (1): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@1fcc932b]; rollback [true]
+12/04/13 11:58:07.684 [BLOG] DEBUG [main] mx.edu.um.blog.dao.ArticuloDaoTest[75] - Crea Articulo
+12/04/13 11:58:07.825 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:07.826 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:07.826 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:07.827 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:07 CDT 2012
+12/04/13 11:58:07.828 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:07.829 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:07.862 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@60b8da0 testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@607f0679, testMethod = testCrea@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3382236d testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:07.866 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (2): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@1fcc932b]; rollback [true]
+12/04/13 11:58:07.866 [BLOG] DEBUG [main] mx.edu.um.blog.dao.ArticuloDaoTest[91] - Actualiza articulo
+12/04/13 11:58:07.867 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:07.867 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:07.868 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:07.868 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:07 CDT 2012
+12/04/13 11:58:07.869 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:07.869 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:07.873 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@60b8da0 testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@736f59d6, testMethod = testActualiza@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3382236d testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:07.875 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (3): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@1fcc932b]; rollback [true]
+12/04/13 11:58:07.876 [BLOG] DEBUG [main] mx.edu.um.blog.dao.ArticuloDaoTest[116] - Elimina articulo
+12/04/13 11:58:07.877 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:07.877 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:07.877 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:07.878 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:07 CDT 2012
+12/04/13 11:58:07.878 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:07.879 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:07.883 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@60b8da0 testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@8f0a55c, testMethod = testElimina@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3382236d testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:07.885 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (4): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@1fcc932b]; rollback [true]
+12/04/13 11:58:07.886 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:07.887 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:07.887 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:07.888 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:07 CDT 2012
+12/04/13 11:58:07.888 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:07.889 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:07.891 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - Dulce Alvarado
+12/04/13 11:58:07.892 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:07.892 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:07.892 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:07 CDT 2012
+12/04/13 11:58:07.893 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 2
+12/04/13 11:58:07.893 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:08.033 [BLOG] TRACE [main] o.h.t.descriptor.sql.BasicExtractor[72] - Found [5] as column [id0_]
+12/04/13 11:58:08.034 [BLOG] TRACE [main] o.h.t.descriptor.sql.BasicExtractor[72] - Found [4] as column [id0_]
+12/04/13 11:58:08.036 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@60b8da0 testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@4f54c970, testMethod = testLista@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3382236d testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:08.039 [BLOG] INFO  [Thread-1] o.s.c.s.GenericApplicationContext[1020] - Closing org.springframework.context.support.GenericApplicationContext@6c50567b: startup date [Fri Apr 13 11:58:06 CDT 2012]; root of context hierarchy
+12/04/13 11:58:08.040 [BLOG] INFO  [Thread-1] o.s.b.f.s.DefaultListableBeanFactory[433] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@43f42525: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,articuloDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,org.springframework.orm.hibernate4.HibernateExceptionTranslator#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,messageSource,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+12/04/13 11:58:15.632 [BLOG] INFO  [main] o.s.test.context.TestContextManager[185] - @TestExecutionListeners is not present for class [class mx.edu.um.blog.dao.ArticuloDaoTest]: using defaults.
+12/04/13 11:58:15.751 [BLOG] INFO  [main] o.s.b.f.xml.XmlBeanDefinitionReader[315] - Loading XML bean definitions from class path resource [blog.xml]
+12/04/13 11:58:15.918 [BLOG] INFO  [main] o.s.c.a.ClassPathBeanDefinitionScanner[202] - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+12/04/13 11:58:15.920 [BLOG] INFO  [main] o.s.c.a.ClassPathBeanDefinitionScanner[210] - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+12/04/13 11:58:16.369 [BLOG] INFO  [main] o.s.c.s.GenericApplicationContext[495] - Refreshing org.springframework.context.support.GenericApplicationContext@6c50567b: startup date [Fri Apr 13 11:58:16 CDT 2012]; root of context hierarchy
+12/04/13 11:58:16.606 [BLOG] INFO  [main] o.s.c.s.PropertySourcesPlaceholderConfigurer[177] - Loading properties file from URL [file:/Users/jdmr/dev/practicas/blog/target/classes/ambiente/blog.properties]
+12/04/13 11:58:16.622 [BLOG] INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor[139] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12/04/13 11:58:16.733 [BLOG] INFO  [main] o.s.b.f.s.DefaultListableBeanFactory[557] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@43b3f709: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,articuloDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,org.springframework.orm.hibernate4.HibernateExceptionTranslator#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,messageSource,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+12/04/13 11:58:16.901 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration boolean -> org.hibernate.type.BooleanType@7007944f
+12/04/13 11:58:16.902 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration boolean -> org.hibernate.type.BooleanType@7007944f
+12/04/13 11:58:16.902 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@7007944f
+12/04/13 11:58:16.903 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@405d65c3
+12/04/13 11:58:16.906 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@297d1d8b
+12/04/13 11:58:16.907 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration yes_no -> org.hibernate.type.YesNoType@633f09d5
+12/04/13 11:58:16.911 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration byte -> org.hibernate.type.ByteType@34c38bef
+12/04/13 11:58:16.912 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration byte -> org.hibernate.type.ByteType@34c38bef
+12/04/13 11:58:16.913 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@34c38bef
+12/04/13 11:58:16.915 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration character -> org.hibernate.type.CharacterType@2d29f154
+12/04/13 11:58:16.916 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration char -> org.hibernate.type.CharacterType@2d29f154
+12/04/13 11:58:16.916 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2d29f154
+12/04/13 11:58:16.920 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration short -> org.hibernate.type.ShortType@57ec035e
+12/04/13 11:58:16.921 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration short -> org.hibernate.type.ShortType@57ec035e
+12/04/13 11:58:16.922 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@57ec035e
+12/04/13 11:58:16.925 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration integer -> org.hibernate.type.IntegerType@5a62867c
+12/04/13 11:58:16.926 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration int -> org.hibernate.type.IntegerType@5a62867c
+12/04/13 11:58:16.927 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@5a62867c
+12/04/13 11:58:16.930 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration long -> org.hibernate.type.LongType@3af8b275
+12/04/13 11:58:16.931 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration long -> org.hibernate.type.LongType@3af8b275
+12/04/13 11:58:16.931 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3af8b275
+12/04/13 11:58:16.934 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration float -> org.hibernate.type.FloatType@50584bac
+12/04/13 11:58:16.935 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration float -> org.hibernate.type.FloatType@50584bac
+12/04/13 11:58:16.935 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@50584bac
+12/04/13 11:58:16.937 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration double -> org.hibernate.type.DoubleType@b31d112
+12/04/13 11:58:16.938 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration double -> org.hibernate.type.DoubleType@b31d112
+12/04/13 11:58:16.938 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@b31d112
+12/04/13 11:58:16.940 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@d003626
+12/04/13 11:58:16.941 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@d003626
+12/04/13 11:58:16.943 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3844dd8c
+12/04/13 11:58:16.943 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3844dd8c
+12/04/13 11:58:16.945 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration string -> org.hibernate.type.StringType@3e54e36f
+12/04/13 11:58:16.946 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.String -> org.hibernate.type.StringType@3e54e36f
+12/04/13 11:58:16.948 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration url -> org.hibernate.type.UrlType@1321202e
+12/04/13 11:58:16.949 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1321202e
+12/04/13 11:58:16.952 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration date -> org.hibernate.type.DateType@1dc59111
+12/04/13 11:58:16.953 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1dc59111
+12/04/13 11:58:16.955 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration time -> org.hibernate.type.TimeType@1c9ce3e0
+12/04/13 11:58:16.956 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1c9ce3e0
+12/04/13 11:58:16.963 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration timestamp -> org.hibernate.type.TimestampType@71fca778
+12/04/13 11:58:16.964 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@71fca778
+12/04/13 11:58:16.965 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@71fca778
+12/04/13 11:58:16.968 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4c352ca9
+12/04/13 11:58:16.970 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration calendar -> org.hibernate.type.CalendarType@6209ae8f
+12/04/13 11:58:16.971 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6209ae8f
+12/04/13 11:58:16.972 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6209ae8f
+12/04/13 11:58:16.973 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7d76591
+12/04/13 11:58:16.975 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration locale -> org.hibernate.type.LocaleType@1c81c2fa
+12/04/13 11:58:16.976 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1c81c2fa
+12/04/13 11:58:16.977 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration currency -> org.hibernate.type.CurrencyType@3bc411d8
+12/04/13 11:58:16.978 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3bc411d8
+12/04/13 11:58:16.979 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@53a7a72b
+12/04/13 11:58:16.980 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@53a7a72b
+12/04/13 11:58:16.982 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration class -> org.hibernate.type.ClassType@3287a10
+12/04/13 11:58:16.983 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3287a10
+12/04/13 11:58:16.986 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4036917e
+12/04/13 11:58:16.986 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4036917e
+12/04/13 11:58:16.988 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4139feec
+12/04/13 11:58:16.989 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@499375c2
+12/04/13 11:58:16.995 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration binary -> org.hibernate.type.BinaryType@a072d8c
+12/04/13 11:58:16.996 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration byte[] -> org.hibernate.type.BinaryType@a072d8c
+12/04/13 11:58:16.997 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [B -> org.hibernate.type.BinaryType@a072d8c
+12/04/13 11:58:16.999 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1eff0b9d
+12/04/13 11:58:16.999 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1eff0b9d
+12/04/13 11:58:16.999 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1eff0b9d
+12/04/13 11:58:17.001 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration image -> org.hibernate.type.ImageType@6eb53873
+12/04/13 11:58:17.003 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration characters -> org.hibernate.type.CharArrayType@6d5edea8
+12/04/13 11:58:17.004 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration char[] -> org.hibernate.type.CharArrayType@6d5edea8
+12/04/13 11:58:17.004 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [C -> org.hibernate.type.CharArrayType@6d5edea8
+12/04/13 11:58:17.006 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@127d1130
+12/04/13 11:58:17.006 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@127d1130
+12/04/13 11:58:17.007 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@127d1130
+12/04/13 11:58:17.008 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration text -> org.hibernate.type.TextType@67eae247
+12/04/13 11:58:17.014 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration blob -> org.hibernate.type.BlobType@afd07bb
+12/04/13 11:58:17.014 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@afd07bb
+12/04/13 11:58:17.015 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@21aa4aaf
+12/04/13 11:58:17.019 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration clob -> org.hibernate.type.ClobType@43f8e336
+12/04/13 11:58:17.020 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@43f8e336
+12/04/13 11:58:17.021 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@685b9ada
+12/04/13 11:58:17.022 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration serializable -> org.hibernate.type.SerializableType@56702d3c
+12/04/13 11:58:17.026 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration object -> org.hibernate.type.ObjectType@3c42d8aa
+12/04/13 11:58:17.026 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3c42d8aa
+12/04/13 11:58:17.027 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@36b9303c
+12/04/13 11:58:17.028 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@380dcf35
+12/04/13 11:58:17.028 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@129ebd53
+12/04/13 11:58:17.029 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@739f9db1
+12/04/13 11:58:17.029 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@742a0ac4
+12/04/13 11:58:17.030 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@74290570
+12/04/13 11:58:17.031 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@312437a4
+12/04/13 11:58:17.031 [BLOG] DEBUG [main] org.hibernate.type.BasicTypeRegistry[143] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@40c10930
+12/04/13 11:58:17.060 [BLOG] INFO  [main] o.h.annotations.common.Version[37] - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+12/04/13 11:58:17.065 [BLOG] INFO  [main] org.hibernate.Version[41] - HHH000412: Hibernate Core {4.1.2}
+12/04/13 11:58:17.067 [BLOG] INFO  [main] org.hibernate.cfg.Environment[239] - HHH000206: hibernate.properties not found
+12/04/13 11:58:17.069 [BLOG] INFO  [main] org.hibernate.cfg.Environment[342] - HHH000021: Bytecode provider name : javassist
+12/04/13 11:58:17.428 [BLOG] INFO  [main] org.hibernate.dialect.Dialect[122] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+12/04/13 11:58:17.447 [BLOG] INFO  [main] o.h.e.j.internal.LobCreatorBuilder[120] - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+12/04/13 11:58:17.456 [BLOG] INFO  [main] o.h.e.t.i.TransactionFactoryInitiator[68] - HHH000399: Using default transaction strategy (direct JDBC transactions)
+12/04/13 11:58:17.460 [BLOG] INFO  [main] o.h.h.i.a.ASTQueryTranslatorFactory[48] - HHH000397: Using ASTQueryTranslatorFactory
+12/04/13 11:58:17.474 [BLOG] TRACE [main] org.hibernate.type.TypeFactory[72] - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@2bf88f8f
+12/04/13 11:58:17.496 [BLOG] INFO  [main] org.hibernate.validator.util.Version[24] - Hibernate Validator 4.2.0.Final
+12/04/13 11:58:17.693 [BLOG] INFO  [main] o.h.tool.hbm2ddl.SchemaExport[343] - HHH000227: Running hbm2ddl schema export
+12/04/13 11:58:17.725 [BLOG] INFO  [main] o.h.tool.hbm2ddl.SchemaExport[405] - HHH000230: Schema export complete
+12/04/13 11:58:17.869 [BLOG] INFO  [main] o.s.o.h.HibernateTransactionManager[268] - Using DataSource [org.apache.commons.dbcp.BasicDataSource@5626ec29] of Hibernate SessionFactory for HibernateTransactionManager
+12/04/13 11:58:17.945 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (1): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@2872d60b]; rollback [true]
+12/04/13 11:58:17.946 [BLOG] DEBUG [main] mx.edu.um.blog.dao.ArticuloDaoTest[75] - Crea Articulo
+12/04/13 11:58:18.098 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:18.100 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:18.100 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:18.101 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:17 CDT 2012
+12/04/13 11:58:18.102 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:18.103 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:18.138 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@62b3beda testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@6b70cd6, testMethod = testCrea@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5babb90b testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:18.142 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (2): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@2872d60b]; rollback [true]
+12/04/13 11:58:18.142 [BLOG] DEBUG [main] mx.edu.um.blog.dao.ArticuloDaoTest[91] - Actualiza articulo
+12/04/13 11:58:18.143 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:18.144 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:18.144 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:18.144 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:18 CDT 2012
+12/04/13 11:58:18.144 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:18.145 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:18.150 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@62b3beda testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@1dc8f55d, testMethod = testActualiza@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5babb90b testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:18.152 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (3): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@2872d60b]; rollback [true]
+12/04/13 11:58:18.153 [BLOG] DEBUG [main] mx.edu.um.blog.dao.ArticuloDaoTest[116] - Elimina articulo
+12/04/13 11:58:18.154 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:18.154 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:18.155 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:18.155 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:18 CDT 2012
+12/04/13 11:58:18.155 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:18.156 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:18.161 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@62b3beda testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@5aeea69b, testMethod = testElimina@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5babb90b testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:18.163 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[274] - Began transaction (4): transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@2872d60b]; rollback [true]
+12/04/13 11:58:18.164 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - David Mendoza
+12/04/13 11:58:18.165 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:18.165 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:18.166 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:18 CDT 2012
+12/04/13 11:58:18.166 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 1
+12/04/13 11:58:18.167 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:18.169 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [1] as [VARCHAR] - Dulce Alvarado
+12/04/13 11:58:18.169 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [2] as [VARCHAR] - Este es el contenido
+12/04/13 11:58:18.170 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [3] as [VARCHAR] - Esta es la descripcion
+12/04/13 11:58:18.170 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [4] as [TIMESTAMP] - Fri Apr 13 11:58:18 CDT 2012
+12/04/13 11:58:18.171 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [5] as [VARCHAR] - TITULO 2
+12/04/13 11:58:18.171 [BLOG] TRACE [main] o.h.type.descriptor.sql.BasicBinder[83] - binding parameter [6] as [INTEGER] - 0
+12/04/13 11:58:18.332 [BLOG] TRACE [main] o.h.t.descriptor.sql.BasicExtractor[72] - Found [5] as column [id0_]
+12/04/13 11:58:18.333 [BLOG] TRACE [main] o.h.t.descriptor.sql.BasicExtractor[72] - Found [4] as column [id0_]
+12/04/13 11:58:18.335 [BLOG] INFO  [main] o.s.t.c.t.TransactionalTestExecutionListener[294] - Rolled back transaction after test execution for test context [[TestContext@62b3beda testClass = ArticuloDaoTest, testInstance = mx.edu.um.blog.dao.ArticuloDaoTest@37c58b22, testMethod = testLista@ArticuloDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5babb90b testClass = ArticuloDaoTest, locations = '{classpath:blog.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+12/04/13 11:58:18.337 [BLOG] INFO  [Thread-1] o.s.c.s.GenericApplicationContext[1020] - Closing org.springframework.context.support.GenericApplicationContext@6c50567b: startup date [Fri Apr 13 11:58:16 CDT 2012]; root of context hierarchy
+12/04/13 11:58:18.338 [BLOG] INFO  [Thread-1] o.s.b.f.s.DefaultListableBeanFactory[433] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@43b3f709: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,articuloDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,org.springframework.orm.hibernate4.HibernateExceptionTranslator#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,messageSource,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
