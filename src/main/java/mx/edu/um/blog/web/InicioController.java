@@ -23,8 +23,10 @@
  */
 package mx.edu.um.blog.web;
 
+import mx.edu.um.blog.dao.ArticuloDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -38,11 +40,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class InicioController {
     
     private static final Logger log = LoggerFactory.getLogger(InicioController.class);
+    @Autowired
+    private ArticuloDao articuloDao;
     
     @RequestMapping
     public String inicio(Model model) {
         log.info("Mostrando pagina de inicio");
         model.addAttribute("mensaje", "Hola desde InicioController");
+        model.addAttribute("articulos", articuloDao.lista());
         return "inicio/index";
     }
 }

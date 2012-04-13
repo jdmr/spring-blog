@@ -22,7 +22,7 @@
                     <div class="nav-collapse">
                         <ul>
                             <li class="active"><a href="<c:url value='/'/>">Inicio</a></li>
-                            <li><a href="<c:url value='/historial'/>">Historial</a></li>
+                            <li><a href="<c:url value='/articulo'/>">Articulos</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
